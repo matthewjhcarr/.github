@@ -1,0 +1,13 @@
+silent: true
+branchName: '${issue.number}-${issue.title,}'
+gitSafeReplacementChar: '-'
+autoCloseIssue: true
+branches:
+  - label: enhancement
+    prefix: feature/
+  - label: bug
+    prefix: bugfix/
+  - label:
+    - question
+    - duplicate
+    skip: true
