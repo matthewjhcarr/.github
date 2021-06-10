@@ -1,5 +1,5 @@
 silent: true
-branchName: '${issue.number}-${issue.title,}'
+branchName: 'issue-${issue.number}-${issue.title,}'
 gitSafeReplacementChar: '-'
 autoCloseIssue: true
 branches:
